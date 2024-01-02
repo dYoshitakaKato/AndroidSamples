@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidSamples</string>
+    <string name="rich_text">文字大\n文字中\n文字小\n色変更\n太字\n下線\n取り消し線\n斜体\nハイパーリンク\n太字かつ斜体</string>
+    <string name="rich_text_all">全部</string>
+    <string name="checkbox">- [x]あいうえお</string>
+    <string name="bold_text">**あいうえお**</string>
+</resources>
