@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -35,11 +36,12 @@ fun MainScreen(
                 modifier
                     .clickable(onClick = { click(context, it) })
                     .padding(start = 4.dp, end = 4.dp, top = 8.dp, bottom = 8.dp)
+                    .fillMaxWidth()
             )
             {
                 Text(
                     text = it.name,
-                    modifier = modifier
+                    modifier = modifier,
                 )
             }
             Divider()
